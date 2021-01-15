@@ -1,0 +1,23 @@
+@mixin list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin retina {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    @content;
+  }
+}
+
+@mixin media-tablet {
+  @media (max-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin media-mobile {
+  @media (max-width: $mobile-width) {
+    @content;
+  }
+}
