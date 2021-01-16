@@ -1,8 +1,46 @@
 .header {
+  background-color: #000000;
+  background-image: url("../img/hero-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.webp .header {
+  background-image: url("../img/hero-desktop.webp");
+
+  @include retina {
+    background-image: url("../img/hero-desktop@2x.webp");
+  }
+}
+
+.no-webp .header {
+  @include retina {
+    background-image: url("../img/hero-desktop@2x.jpg");
+  }
+}
+
+.header__wrapper {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  padding-top: 17px;
+  margin-bottom: 256px;
 }
 
 @include media-tablet {
-}
+  .header {
+    background: none;
+  }
 
-@include media-mobile {
+  .header__wrapper {
+    max-width: 100%;
+  }
+
+  .header__nav {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
 }

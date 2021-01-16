@@ -25,26 +25,22 @@ html {
 
 body {
   min-width: 320px;
-  max-width: 1920px;
-  background-color: #ffffff;
-  color: #2c2e3fb3;
-  font-family: "Montserrat", "Arial", sans-serif;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 22px;
+  line-height: 34px;
+  color: #000000;
   letter-spacing: -0.466667px;
-  margin: 0;
-  margin: 0 auto;
-  padding: 0;
   overflow-x: hidden;
 }
 
 img {
-  height: auto;
   max-width: 100%;
+  height: auto;
 }
 
 a {
   text-decoration: none;
-  color: $text;
 }
