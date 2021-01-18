@@ -1,0 +1,119 @@
+.bicycle-video {
+  padding-top: 121px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: linear-gradient(to bottom, #131314 87%, #ffffff 13%);
+  color: #ffffff;
+  text-align: center;
+}
+
+.bicycle-video__title {
+  margin: 0;
+  margin-bottom: 19px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.bicycle-video__description {
+  margin: 0 auto;
+  margin-bottom: 56px;
+  width: 340px;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.005em;
+  opacity: 0.7;
+}
+
+.bicycle-video__player {
+  position: relative;
+}
+
+.bicycle-video__player-button {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: $main-color;
+  cursor: pointer;
+}
+
+.bicycle-video__player-button:hover {
+  background-color: darken($main-color, 10%);
+}
+
+.bicycle-video__player-button::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9px 0 9px 13px;
+  border-color: transparent transparent transparent #070707;
+}
+
+@include media-tablet {
+  .bicycle-video {
+    padding-top: 70px;
+    background: linear-gradient(to bottom, #131314 82%, #ffffff 18%);
+  }
+
+  .bicycle-video__title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .bicycle-video__description {
+    width: 60%;
+    margin-bottom: 40px;
+  }
+
+  .bicycle-video__player {
+    width: 69%;
+    margin: 0 auto;
+  }
+
+  .bicycle-video__player-button {
+    width: 90px;
+    height: 90px;
+  }
+
+  .bicycle-video__player-button::after {
+    border-width: 12px 0 12px 18px;
+  }
+}
+
+@include media-mobile {
+  .bicycle-video {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 85px;
+    background: linear-gradient(to bottom, #131314 87%, #ffffff 12%);
+  }
+
+  .bicycle-video__player-button {
+    width: 65px;
+    height: 65px;
+  }
+
+  .bicycle-video__description {
+    width: 100%;
+    margin-bottom: 52px;
+  }
+
+  .bicycle-video__player {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

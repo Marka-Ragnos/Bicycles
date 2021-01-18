@@ -4,6 +4,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+
+  @include retina {
+    background-image: url("../img/hero-desktop@2x.jpg");
+  }
 }
 
 .webp .header {
@@ -11,12 +15,6 @@
 
   @include retina {
     background-image: url("../img/hero-desktop@2x.webp");
-  }
-}
-
-.no-webp .header {
-  @include retina {
-    background-image: url("../img/hero-desktop@2x.jpg");
   }
 }
 
@@ -32,6 +30,10 @@
 
 @include media-tablet {
   .header {
+    background: none;
+  }
+
+  .webp .header {
     background: none;
   }
 

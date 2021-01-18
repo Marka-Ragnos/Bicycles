@@ -1,0 +1,21 @@
+.about-company {
+  text-align: center;
+}
+
+.about-company__title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+@include media-tablet {
+  .about-company__title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 41px;
+  }
+}

@@ -1,0 +1,45 @@
+.main {
+  margin-bottom: 144px;
+}
+
+.main__about-company {
+  max-width: 1166px;
+  margin: 0 auto;
+  padding-top: 151px;
+  // padding-right: 4%;
+  padding-bottom: 130px;
+  // padding-left: 4%;
+}
+
+.main__bicycles-types {
+  padding-bottom: 127px;
+}
+
+@include media-tablet {
+  .main {
+    margin-bottom: 62px;
+  }
+
+  .main__about-company {
+    padding-top: 72px;
+    padding-right: 12%;
+    padding-bottom: 26px;
+    padding-left: 12%;
+  }
+
+  .main__bicycles-types {
+    padding-bottom: 20px;
+  }
+}
+
+@include media-mobile {
+  .main__about-company {
+    padding-right: 5%;
+    padding-bottom: 38px;
+    padding-left: 4%;
+  }
+
+  .main__bicycles-types {
+    padding-bottom: 4px;
+  }
+}
