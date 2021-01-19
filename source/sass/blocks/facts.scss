@@ -40,6 +40,14 @@
     margin-right: 0;
     margin-bottom: 44px;
   }
+
+  .facts__item + .facts__item {
+    margin-left: 0;
+  }
+
+  .facts__item-number {
+    margin-bottom: 15px;
+  }
 }
 
 @include media-mobile {

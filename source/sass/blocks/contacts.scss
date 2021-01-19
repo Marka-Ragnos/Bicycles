@@ -70,8 +70,7 @@
 .contacts__links-item--phone {
   margin-right: 16px;
   padding-left: 37px;
-    letter-spacing: 0.03em;
-
+  letter-spacing: 0.03em;
 }
 
 .contacts__links-item::before {
@@ -103,20 +102,31 @@
   .contacts__title {
     margin-bottom: 20px;
     font-size: 24px;
+    letter-spacing: 0.015em;
   }
 
   .contacts__map {
-    margin-bottom: 36px;
+    margin-bottom: 31px;
+  }
+
+  .contacts__map img {
+    height: 103%;
   }
 
   .contacts__address {
     margin-bottom: 20px;
     width: 100%;
+    letter-spacing: 0.025em;
   }
 
   .contacts__links {
     width: 80%;
   }
+
+  .contacts__links-item--phone {
+  margin-right: 10px;
+}
+
 }
 
 @include media-mobile {

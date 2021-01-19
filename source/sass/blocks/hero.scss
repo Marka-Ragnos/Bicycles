@@ -84,14 +84,14 @@
     background-image: url("../img/hero-tablet.webp");
 
     @include retina {
-      background-image: url("../img/hero-desktop@2x.webp");
+      background-image: url("../img/hero-tablet@2x.webp");
     }
   }
 
   .hero__description-link {
-    margin-bottom: 80px;
+    margin-bottom: 90px;
     padding-top: 25px;
-    padding-left: 20px;
+    padding-left: 22px;
     align-self: flex-start;
   }
 
@@ -103,13 +103,13 @@
 
   .hero__description-text {
     width: 56%;
-    margin-bottom: 80px;
+    margin-bottom: 79px;
     font-size: 18px;
     line-height: 32px;
   }
 
   .hero__login {
-    width: 42%;
+    width: 43%;
     padding-top: 66px;
   }
 

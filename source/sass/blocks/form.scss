@@ -47,7 +47,12 @@
 }
 
 @include media-tablet {
+  .form {
+    width: 97%;
+    margin: 0 auto;
+  }
+
   .form input {
-    padding-left: 25px;
+    padding-left: 21px;
   }
 }
