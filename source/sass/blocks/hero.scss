@@ -25,7 +25,7 @@
   font-size: 46px;
   font-weight: bold;
   line-height: 64px;
-  letter-spacing: 0.035em;
+  letter-spacing: -0.005em;
   color: #ffffff;
 }
 
@@ -35,7 +35,7 @@
   font-size: 20px;
   font-weight: 300;
   line-height: 32px;
-  letter-spacing: 0.005em;
+  letter-spacing: -0.005em;
   color: #ffffff;
   opacity: 0.8;
 }
@@ -52,7 +52,7 @@
   font-size: 17px;
   font-weight: 600;
   line-height: 28px;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.005em;
   text-align: center;
   color: #ffffff;
 }
@@ -143,11 +143,11 @@
   }
 
   .hero__description-text {
-    margin-bottom: 70px;
+    margin-bottom: 68px;
   }
 
   .hero__description-link {
-    margin-bottom: 66px;
+    margin-bottom: 77px;
     padding-left: 17px;
   }
 

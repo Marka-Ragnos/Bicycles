@@ -87,7 +87,7 @@
   width: 47px;
   height: 47px;
   right: -22px;
-  bottom: -12px;
+  bottom: -14px;
   border: 8px solid $main-color;
   z-index: 4;
 }
@@ -106,7 +106,7 @@
 
 .bicycles-types__item-description {
   margin: 0;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05px;
 }
 
 @include media-tablet {
