@@ -148,10 +148,6 @@
     object-fit: cover;
   }
 
-  // .bicycles-types__image--poly {
-  //   font-family: "object-fit: cover";
-  // }
-
   .bicycles-types__item--mountain {
     padding-top: 0;
   }
@@ -197,12 +193,17 @@
     align-items: center;
   }
 
+  .bicycles-types__title {
+    margin-bottom: 30px;
+  }
+
   .bicycles-types__item {
     max-width: 100%;
   }
 
   .bicycles-types__wrapper {
     width: 84%;
+    padding-top: 51px;
   }
 
   .bicycles-types__item:not(:last-child) {
@@ -212,10 +213,6 @@
   .bicycles-types__item--road .bicycles-types__image-wrapper::before {
     left: -25px;
   }
-
-  // .bicycles-types__item--childrens {
-  //   padding-top: 0;
-  // }
 
   .bicycles-types__item--childrens .bicycles-types__image-wrapper::before {
     right: -14px;

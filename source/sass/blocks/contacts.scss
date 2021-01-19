@@ -150,7 +150,11 @@
 
   .contacts__map {
     height: 250px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+  }
+
+  .contacts__map img {
+    height: 100%;
   }
 
   .contacts__links {
@@ -159,6 +163,10 @@
   }
 
   .contacts__links-item--mail {
-    margin-bottom: 23px;
+    margin-bottom: 15px;
+  }
+
+  .contacts__links-item--phone {
+    margin-right: 27px;
   }
 }

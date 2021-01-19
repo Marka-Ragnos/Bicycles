@@ -54,3 +54,18 @@
     padding-left: 20px;
   }
 }
+
+@include media-mobile {
+  .form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .form input {
+    padding-left: 25px;
+  }
+
+  .form button {
+    min-height: 49px;
+  }
+}

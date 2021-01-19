@@ -6,9 +6,7 @@
   max-width: 1166px;
   margin: 0 auto;
   padding-top: 151px;
-  // padding-right: 4%;
   padding-bottom: 130px;
-  // padding-left: 4%;
 }
 
 .main__bicycles-types {
@@ -35,7 +33,7 @@
 @include media-mobile {
   .main__about-company {
     padding-right: 5%;
-    padding-bottom: 38px;
+    padding-bottom: 34px;
     padding-left: 4%;
   }
 
