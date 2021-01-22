@@ -110,6 +110,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+
     &::before,
     &::after {
       content: "";
@@ -120,9 +121,11 @@
       background: #000000;
       transition: transform 0.3s;
     }
+
     &::after {
       margin-bottom: 0;
     }
+
     &:focus,
     &:hover {
       background-color: darken($main-color, 20%);
@@ -147,6 +150,7 @@
       width: 25px;
       transform: translateY(-6px) rotate(-135deg);
     }
+
     &::before {
       width: 25px;
       transform: translateY(6px) rotate(135deg);
@@ -157,10 +161,12 @@
   .nav--nojs .nav__toggle-line {
     opacity: 0;
     transition: 0s;
+
     &::after {
       width: 23px;
       transform: translateY(-6px) rotate(-135deg);
     }
+
     &::before {
       transform: translateY(6px) rotate(135deg);
     }
