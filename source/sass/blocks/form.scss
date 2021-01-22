@@ -44,6 +44,10 @@
   opacity: 0.5;
 }
 
+.form input::-moz-placeholder {
+  line-height: 48px;
+}
+
 @include media-tablet {
   .form {
     width: 97%;
