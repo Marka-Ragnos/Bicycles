@@ -46,7 +46,6 @@
 
   .nav--opened .nav__list-wrapper {
     height: 100vh;
-    position: fixed;
     width: 100%;
     overflow-y: scroll;
     z-index: 5;
@@ -66,6 +65,10 @@
 
   .nav--nojs .nav__list {
     display: block;
+  }
+
+  .nav--nojs .nav__toggle {
+    display: none;
   }
 
   .nav__item a {
